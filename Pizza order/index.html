@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="test.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Pizza order cart</h1>
+    </header>
+
+    <main>
+        <div >
+            Size :
+            <input class="size" type="radio" name="size" value="small">small
+            <input class="size" type="radio" name="size" value="medium">medium
+            <input class="size" type="radio" name="size" value="large">large
+
+        </div>
+        
+        <div class="cheese">
+            Add on: 
+            <input type="radio" name="addon" value="cheeseBurst">Cheese Burst
+            <input type="radio" name="addon" value="cheese">Cheese
+        </div>
+        
+        <div class="price">
+            <h1>Final Price:
+                <button onclick="price()">Get</button>
+            </h1>
+            <h1 class="final"></h1>
+        </div>
+        
+    </main>
+</body>
+</html>
