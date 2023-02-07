@@ -29,7 +29,7 @@ arr.forEach(showItem)
 
 arr.forEach(function(item){
     if(item.designation == "boss"){
-        console.log(item.name)
+        console.log(item)
     }
 })
 
@@ -40,7 +40,9 @@ numarray.forEach(function tripledArray(item){
 
 
 
-// array method : map
+// array method : map()
+// map method return new array.
+// doesnt affect the size of the original array.
 
 arr.map((item)=>{
     const {name,age,designation} = item;
@@ -52,4 +54,17 @@ arr.map((item)=>{
 const doubledArray = numarray.map(item=>item*2);
 console.log(doubledArray);
 
-// map method return an array.
+
+// array method: filter()
+
+const youngPeople = arr.filter((person)=> person.age<=10);
+console.log(youngPeople)
+
+const greaterThanFour =  numarray.filter((item)=> item>4)
+console.log(greaterThanFour);
+
+
+// array method : reduce()
+
+const totalAdd = numarray.reduce((a,b=0)=>a+b)
+console.log(totalAdd);
