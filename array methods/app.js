@@ -66,5 +66,5 @@ console.log(greaterThanFour);
 
 // array method : reduce()
 
-const totalAdd = numarray.reduce((a,b=0)=>a+b)
+const totalAdd = numarray.reduce((a,b)=>a+b)
 console.log(totalAdd);
