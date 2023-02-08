@@ -23,15 +23,11 @@ console.log(arr)
 const num = 31;
 let countt = 0;
 
-for(let a = num; a<=num; a++){
-    for(let b = 1; b<=a; b++){
-        if(a%b==0){
-            countt++;
-        }
+for(let a = 1; a<=num; a++){
+    countt++;
     }
     if(countt == 2){
         console.log(`${num} is a prime no`)
     }else{
         console.log(`${num} is not a prime no`)
     }
-}
