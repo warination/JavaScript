@@ -14,3 +14,5 @@ console.log(arr)
 
 const arrayPush = arr.push(8) //element is added to last index of the array
 console.log(arr);
+
+
